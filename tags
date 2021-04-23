@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/631690ad/
+*	app/javascript/styles/application.css	/^* {$/;"	s
+.header-frame	app/javascript/styles/application.css	/^.header-frame {$/;"	c
+.header-title	app/javascript/styles/application.css	/^.header-title {$/;"	c
+.post-frame	app/javascript/styles/application.css	/^.post-frame {$/;"	c
+.post-image	app/javascript/styles/application.css	/^.post-image {$/;"	c
+.post-title	app/javascript/styles/application.css	/^.post-title {$/;"	c
+.post-username	app/javascript/styles/application.css	/^.post-username {$/;"	c
+.section-container	app/javascript/styles/application.css	/^.section-container {$/;"	c
+@rails/actioncable	package.json	/^    "@rails\/actioncable": "^6.0.0",$/;"	s	object:dependencies
+@rails/activestorage	package.json	/^    "@rails\/activestorage": "^6.0.0",$/;"	s	object:dependencies
+@rails/ujs	package.json	/^    "@rails\/ujs": "^6.0.0",$/;"	s	object:dependencies
+@rails/webpacker	package.json	/^    "@rails\/webpacker": "5.2.1",$/;"	s	object:dependencies
+APP_PATH	bin/rails	/^APP_PATH = File.expand_path('..\/config\/application', __dir__)$/;"	C
+APP_ROOT	bin/setup	/^APP_ROOT = File.expand_path('..', __dir__)$/;"	C
+APP_ROOT	bin/webpack	/^APP_ROOT = File.expand_path("..", __dir__)$/;"	C
+APP_ROOT	bin/webpack-dev-server	/^APP_ROOT = File.expand_path("..", __dir__)$/;"	C
+APP_ROOT	bin/yarn	/^APP_ROOT = File.expand_path('..', __dir__)$/;"	C
+AddPasswordToUsers	db/migrate/20210423005410_add_password_to_users.rb	/^class AddPasswordToUsers < ActiveRecord::Migration[6.1]$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	module:Instagramo
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	mixin:include:Pagy.Backend
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m	mixin:include:Pagy.Frontend
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+ChangesUserPasswords	db/migrate/20210423013107_changes_user_passwords.rb	/^class ChangesUserPasswords < ActiveRecord::Migration[6.1]$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	module:ApplicationCable
+ColorscoreAnalyzer	app/analyzers/colorscore_analyzer.rb	/^class ColorscoreAnalyzer < ActiveStorage::Analyzer::ImageAnalyzer$/;"	c
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	module:ApplicationCable
+ConnectionTest	test/channels/application_cable/connection_test.rb	/^class ApplicationCable::ConnectionTest < ActionCable::Connection::TestCase$/;"	c	module:ApplicationCable
+CreateActiveStorageTables	db/migrate/20210417014123_create_active_storage_tables.active_storage.rb	/^class CreateActiveStorageTables < ActiveRecord::Migration[5.2]$/;"	c
+CreatePosts	db/migrate/20210417013221_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration[6.1]$/;"	c
+CreateUsers	db/migrate/20210417012732_create_users.rb	/^class CreateUsers < ActiveRecord::Migration[6.1]$/;"	c
+Instagramo	config/application.rb	/^module Instagramo$/;"	m
+LazyLoadImages	app/javascript/lazy_load_images.js	/^const LazyLoadImages = (() => {$/;"	C
+Post	app/models/post.rb	/^class Post < ApplicationRecord$/;"	c
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+README	README.md	/^# README$/;"	c
+SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+TestCase	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c	module:ActiveSupport
+The change you wanted was rejected.	public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h
+The page you were looking for doesn't exist.	public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+We're sorry, but something went wrong.	public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h
+activate_bundler	bin/bundle	/^  def activate_bundler$/;"	f
+activation_error_handling	bin/bundle	/^  def activation_error_handling$/;"	f
+big_image	app/models/post.rb	/^  def big_image$/;"	f	class:Post
+body	app/javascript/styles/application.css	/^html, body {$/;"	s
+bundler_requirement	bin/bundle	/^  def bundler_requirement$/;"	f
+bundler_version	bin/bundle	/^  def bundler_version$/;"	f
+change	db/migrate/20210417012732_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20210417013221_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+change	db/migrate/20210417014123_create_active_storage_tables.active_storage.rb	/^  def change$/;"	f	class:CreateActiveStorageTables
+change	db/migrate/20210423005410_add_password_to_users.rb	/^  def change$/;"	f	class:AddPasswordToUsers
+change	db/migrate/20210423013107_changes_user_passwords.rb	/^  def change$/;"	f	class:ChangesUserPasswords
+channels	app/javascript/channels/index.js	/^const channels = require.context('.', true, \/_channel\\.js$\/)$/;"	C
+cli_arg_version	bin/bundle	/^  def cli_arg_version$/;"	f
+create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+current_user	app/controllers/application_controller.rb	/^  def current_user$/;"	f	class:ApplicationController
+default	config/database.yml	/^default: &default$/;"	a
+default	config/webpacker.yml	/^default: &default$/;"	a
+dependencies	package.json	/^  "dependencies": {$/;"	o
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+die	.git/hooks/push-to-checkout.sample	/^die () {$/;"	f
+env_var_version	bin/bundle	/^  def env_var_version$/;"	f
+environment	config/webpack/development.js	/^const environment = require('.\/environment')$/;"	C
+environment	config/webpack/production.js	/^const environment = require('.\/environment')$/;"	C
+environment	config/webpack/test.js	/^const environment = require('.\/environment')$/;"	C
+exports	babel.config.js	/^module.exports = function(api) {$/;"	f	function:module
+exports	postcss.config.js	/^module.exports = {$/;"	c	class:module
+g:this_obsession	Session.vim	/^let g:this_obsession = v:this_session$/;"	v
+g:this_session	Session.vim	/^let g:this_session = v:this_session$/;"	v
+gemfile	bin/bundle	/^  def gemfile$/;"	f
+html	app/javascript/styles/application.css	/^html, body {$/;"	s
+image_colors	app/analyzers/colorscore_analyzer.rb	/^  def image_colors(image_path, no_colors = 5)$/;"	f	class:ColorscoreAnalyzer
+index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
+invoked_as_script?	bin/bundle	/^  def invoked_as_script?$/;"	f
+is_not_running	bin/docker	/^is_not_running(){$/;"	f
+lazy_image_tag	app/helpers/application_helper.rb	/^  def lazy_image_tag(source, options = {})$/;"	f	module:ApplicationHelper
+linear_gradient	app/helpers/application_helper.rb	/^  def linear_gradient(colors, direction = '')$/;"	f	module:ApplicationHelper
+load_bundler!	bin/bundle	/^  def load_bundler!$/;"	f
+lockfile	bin/bundle	/^  def lockfile$/;"	f
+lockfile_version	bin/bundle	/^  def lockfile_version$/;"	f
+metadata	app/analyzers/colorscore_analyzer.rb	/^  def metadata$/;"	f	class:ColorscoreAnalyzer
+name	package.json	/^  "name": "instagramo",$/;"	s
+new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+plugins	postcss.config.js	/^  plugins: [$/;"	p	class:module.exports
+post_params	app/controllers/posts_controller.rb	/^  def post_params$/;"	f	class:PostsController
+private	package.json	/^  "private": true,$/;"	b
+s:l	Session.vim	/^let s:l = 1 - ((0 * winheight(0) + 36) \/ 73)$/;"	v
+s:l	Session.vim	/^let s:l = 45 - ((44 * winheight(0) + 36) \/ 73)$/;"	v
+s:so_save	Session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+session_params	app/controllers/sessions_controller.rb	/^  def session_params$/;"	f	class:SessionsController
+set_post	app/controllers/posts_controller.rb	/^  def set_post$/;"	f	class:PostsController
+show	app/controllers/posts_controller.rb	/^  def show; end$/;"	f	class:PostsController
+standard_image	app/models/post.rb	/^  def standard_image$/;"	f	class:Post
+system!	bin/setup	/^def system!(*args)$/;"	f
+turbolinks	package.json	/^    "turbolinks": "^5.2.0"$/;"	s	object:dependencies
+version	package.json	/^  "version": "0.1.0",$/;"	s
+webpack-dev-server	package.json	/^    "webpack-dev-server": "^3.11.2"$/;"	s	object:devDependencies

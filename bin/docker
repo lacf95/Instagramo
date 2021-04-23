@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+is_not_running(){
+  [ -z `docker-compose ps -q app` ] || [ -z `docker ps -q --no-trunc | grep $(docker-compose ps -q app)` ]
+}
+
+export U_NAME=$(whoami)
+export U_UID=$(id -u)
+export U_GID=$(id -g)
+
+if [[ "$1" == up ]]; then
+  docker-compose down && docker-compose up;
+elif [[ "$1" == build ]]; then
+  docker-compose build;
+elif [[ "$1" == down ]]; then
+  docker-compose down;
+elif [[ "$1" == bash ]]; then
+  if is_not_running; then
+    docker-compose down && docker-compose run --rm -p 3000:3000 -p 3035:3035 app bash;
+  else
+    docker exec -it "$(docker-compose ps -q app)" bash;
+  fi
+fi

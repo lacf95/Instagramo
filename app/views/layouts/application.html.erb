@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagramo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header class="header-frame">
+      <section class="section-container">
+        <h1 class="header-title">Instagramo for <%= current_user&.first_name %></h1>
+        <% if current_user %>
+          <%= link_to 'Sign out', session_path(current_user), method: :delete %>
+        <% else %>
+          <%= link_to 'Sign in', new_session_path %>
+        <% end %>
+      </section class="section-container">
+    </header>
+    <%= yield %>
+  </body>
+</html>

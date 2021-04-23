@@ -1,0 +1,6 @@
+alias server="bundle exec rails server -b 0.0.0.0 -p 3000"
+alias console="bundle exec rails console"
+alias test-suite="bundle exec rails test"
+alias routes="bundle exec rails routes"
+alias rubocop="bundle exec rubocop"
+alias sidekiq="bundle exec sidekiq"

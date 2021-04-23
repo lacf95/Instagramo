@@ -1,0 +1,7 @@
+console
+console
+console
+bin/rails routes | grep session
+bin/rails dbconsole -p
+bin/rails console
+bin/rails generate migration changesUserPasswords

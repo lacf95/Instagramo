@@ -1,0 +1,9 @@
+<section class="section-container">
+  <%= link_to 'New Post', new_post_path %>
+  <% @posts.each do |post| %>
+    <% cache post do %>
+      <%= render post %>
+    <% end %>
+  <% end %>
+  <%== pagy_nav(@pagy) %>
+</section>

@@ -1,0 +1,7 @@
+<section>
+  <%= link_to 'Home', root_path %>
+  <article>
+    <%= image_tag @post.big_image if @post.image.attached? %>
+    <h3><%= @post.title %></h3>
+  </article>
+</section>
