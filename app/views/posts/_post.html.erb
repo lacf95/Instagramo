@@ -1,8 +1,10 @@
-<% image = post.image.attached? ? post.standard_image : '' %>
-<% image_colors = post.image.metadata[:colors] || [] %>
+<% cache post do %>
+  <% image = post.image.attached? ? post.standard_image : '' %>
+  <% image_colors = post.image.metadata[:colors] || [] %>
 
-<article class="post-frame">
-  <%= lazy_image_tag(image, style: "background: #{linear_gradient(image_colors)}", class: 'post-image') %>
-  <h3 class="post-username"><%= post.user.email %></h3>
-  <h3 class="post-title"><%= post.title %></h3>
-</article>
+  <article class="post-frame">
+    <%= lazy_image_tag(image, style: "background: #{linear_gradient(image_colors)}", class: 'post-image') %>
+    <h3 class="post-username"><%= post.user.email %></h3>
+    <h3 class="post-title"><%= post.title %></h3>
+  </article>
+<% end %>

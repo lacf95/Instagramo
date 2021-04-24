@@ -4,7 +4,11 @@ class PostsController < ApplicationController
   before_action :set_post, only: %i[show]
 
   def index
-    @pagy, @posts = pagy(Post.all.order(created_at: :desc), items: 10)
+    @pagy, @posts = pagy(Post.all.order(created_at: :desc), items: 3)
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   def new

@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 module ApplicationHelper
-  include Pagy::Frontend
-
   def linear_gradient(colors, direction = '')
     direction = direction.present? ? "#{direction}," : ''
     "linear-gradient(#{direction}#{colors.join(',')})"

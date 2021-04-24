@@ -10,12 +10,14 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-import LazyLoadImages from "lazy_load_images.js"
+import LazyLoadImage from "lazy_load_image.js"
+import LazyRequest from "lazy_request.js"
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
 document.addEventListener('turbolinks:load', () => {
-  LazyLoadImages.start()
+  LazyLoadImage.start()
+  LazyRequest.start()
 })

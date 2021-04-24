@@ -1,0 +1,12 @@
+(() => {
+  const CONTAINER_SELECTOR = '#post-container'
+  const container = document.querySelector(CONTAINER_SELECTOR)
+
+  if (!container) { return; }
+
+  container.insertAdjacentHTML('beforeend', "<%= escape_javascript(render @posts).html_safe %>")
+
+  <% if @pagy.next %>
+    container.insertAdjacentHTML('beforeend', "<%= escape_javascript(tag.div data: { lazy_request: posts_path(page: @pagy.next, format: :js) }).html_safe %>")
+  <% end %>
+})()
